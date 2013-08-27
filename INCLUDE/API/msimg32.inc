@@ -1,2 +1,3 @@
 import msimg32,\
-	TransparentBlt,'TransparentBlt'
+	TransparentBlt,'TransparentBlt',\
+	AlphaBlend,'AlphaBlend'
