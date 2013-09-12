@@ -11,4 +11,10 @@ import gdiplus,\
 	GdipDrawImageRectRectI,'GdipDrawImageRectRectI',\
 	GdipCreateBitmapFromGraphics,'GdipCreateBitmapFromGraphics',\
 	GdipCreateHBITMAPFromBitmap,'GdipCreateHBITMAPFromBitmap',\
-	GdipCreateFromHDC,'GdipCreateFromHDC'
+	GdipCreateFromHDC,'GdipCreateFromHDC',\
+	GdipDrawImage,'GdipDrawImage',\
+	GdipDrawImageRect,'GdipDrawImageRect',\
+	GdipGetImageHeight,'GdipGetImageHeight',\
+	GdipGetImageWidth,'GdipGetImageWidth',\
+	GdipDrawImageI,'GdipDrawImageI',\
+	GdipDeleteGraphics,'GdipDeleteGraphics'
