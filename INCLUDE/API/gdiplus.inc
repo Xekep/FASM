@@ -17,4 +17,10 @@ import gdiplus,\
 	GdipGetImageHeight,'GdipGetImageHeight',\
 	GdipGetImageWidth,'GdipGetImageWidth',\
 	GdipDrawImageI,'GdipDrawImageI',\
-	GdipDeleteGraphics,'GdipDeleteGraphics'
+	GdipDeleteGraphics,'GdipDeleteGraphics',\
+	GdipCreateSolidFill,'GdipCreateSolidFill',\
+	GdipFillRectangle,'GdipFillRectangle',\
+	GdipDeleteBrush,'GdipDeleteBrush',\
+	GdipCloneImage,'GdipCloneImage',\
+	GdipGraphicsClear,'GdipGraphicsClear',\
+	GdipGetImageGraphicsContext,'GdipGetImageGraphicsContext'
