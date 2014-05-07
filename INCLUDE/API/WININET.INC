@@ -16,4 +16,5 @@ import wininet,\
 	InternetSetCookieA,'InternetSetCookieA',\
 	InternetGetCookieA,'InternetGetCookieA',\
 	InternetCrackUrlA,'InternetCrackUrlA',\
-	HttpQueryInfoA,'HttpQueryInfoA'
+	HttpQueryInfoA,'HttpQueryInfoA',\
+	HTTPopenRequestA,'HTTPopenRequestA'
