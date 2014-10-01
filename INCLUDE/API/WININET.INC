@@ -17,4 +17,6 @@ import wininet,\
 	InternetGetCookieA,'InternetGetCookieA',\
 	InternetCrackUrlA,'InternetCrackUrlA',\
 	HttpQueryInfoA,'HttpQueryInfoA',\
-	HTTPopenRequestA,'HTTPopenRequestA'
+	HTTPopenRequestA,'HTTPopenRequestA',\
+	FtpPutFileA,'FtpPutFileA',\
+	FtpPutFileW,'FtpPutFileW'

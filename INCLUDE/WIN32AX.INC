@@ -140,6 +140,9 @@ include 'api/gdiplus.inc'
 include 'api/msimg32.inc'
 include 'api/WINMM.inc'
 include 'api/msvcrt.inc'
+include 'api/avicap32.inc'
+include 'api/opengl32.inc'
+include 'api/oleaut32.inc'
 purge import,api
 
 macro .data { section '.data' data readable writeable }
@@ -160,13 +163,16 @@ macro .end label
 	     comdlg32,'COMDLG32.DLL',\
 	     shell32,'SHELL32.DLL',\
 	     wsock32,'WSOCK32.DLL',\
-             psapi,'PSAPI.DLL',\
+	     psapi,'PSAPI.DLL',\
 	     wininet,'WININET.DLL',\
 	     ole32,'OLE32.DLL',\
-             gdiplus,'gdiplus',\
-             msimg32,'msimg32',\
-             winmm,'winmm',\
-	     msvcrt,'MSVCRT.DLL'
+	     gdiplus,'gdiplus',\
+	     msimg32,'msimg32',\
+	     winmm,'winmm',\
+	     msvcrt,'MSVCRT.DLL',\
+	     avicap32,'avicap32.dll',\
+	     opengl32,'opengl32.dll',\
+	     oleaut32,'oleaut32.dll'
 
 
      import_kernel32
@@ -184,7 +190,9 @@ macro .end label
      import_msimg32
      import_winmm
      import_msvcrt
-
+     import_avicap32
+     import_opengl32
+     import_oleaut32
      all_api
 }
 

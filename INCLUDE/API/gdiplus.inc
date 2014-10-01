@@ -23,4 +23,16 @@ import gdiplus,\
 	GdipDeleteBrush,'GdipDeleteBrush',\
 	GdipCloneImage,'GdipCloneImage',\
 	GdipGraphicsClear,'GdipGraphicsClear',\
-	GdipGetImageGraphicsContext,'GdipGetImageGraphicsContext'
+	GdipGetImageGraphicsContext,'GdipGetImageGraphicsContext',\
+	GdipGetImageEncodersSize,'GdipGetImageEncodersSize',\
+	GdipGetImageEncoders,'GdipGetImageEncoders',\
+	GdipCreateBitmapFromFile,'GdipCreateBitmapFromFile',\
+	GdipDrawString,'GdipDrawString',\
+	GdipCreateFontFamilyFromName,'GdipCreateFontFamilyFromName',\
+	GdipCreateFont,'GdipCreateFont',\
+	GdipDeleteFontFamily,'GdipDeleteFontFamily',\
+	GdipDeleteFont,'GdipDeleteFont',\
+	GdipCreateStringFormat,'GdipCreateStringFormat',\
+	GdipSetStringFormatAlign,'GdipSetStringFormatAlign',\
+	GdipDeleteStringFormat,'GdipDeleteStringFormat',\
+	GdipSetSmoothingMode,'GdipSetSmoothingMode'

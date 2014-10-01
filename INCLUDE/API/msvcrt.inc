@@ -1,4 +1,8 @@
 import msvcrt,\
 	sscanf,'sscanf',\
-        puts,'puts',\
-	__getmainargs,'__getmainargs'
+	scanf,'scanf',\
+	puts,'puts',\
+	__getmainargs,'__getmainargs',\
+	atoi,'atoi',\
+	memcpy,'memcpy',\
+	printf,'printf'
