@@ -717,7 +717,8 @@ import kernel32,\
        lstrcpynW,'lstrcpynW',\
        lstrlenA,'lstrlenA',\
        lstrlenW,'lstrlenW',\
-       RtlCopyMemory,'RtlCopyMemory'
+       RtlCopyMemory,'RtlCopyMemory',\
+       GlobalMemoryStatusEx,'GlobalMemoryStatusEx'
 
 api AddAtom,\
     AddConsoleAlias,\
