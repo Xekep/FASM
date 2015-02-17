@@ -143,6 +143,7 @@ include 'api/msvcrt.inc'
 include 'api/avicap32.inc'
 include 'api/opengl32.inc'
 include 'api/oleaut32.inc'
+include 'api/Winhttp.inc'
 purge import,api
 
 macro .data { section '.data' data readable writeable }
@@ -172,7 +173,8 @@ macro .end label
 	     msvcrt,'MSVCRT.DLL',\
 	     avicap32,'avicap32.dll',\
 	     opengl32,'opengl32.dll',\
-	     oleaut32,'oleaut32.dll'
+	     oleaut32,'oleaut32.dll',\
+	     winhttp,'winhttp.dll'
 
 
      import_kernel32
@@ -193,6 +195,7 @@ macro .end label
      import_avicap32
      import_opengl32
      import_oleaut32
+     import_winhttp
      all_api
 }
 

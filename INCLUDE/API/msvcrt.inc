@@ -5,4 +5,5 @@ import msvcrt,\
 	__getmainargs,'__getmainargs',\
 	atoi,'atoi',\
 	memcpy,'memcpy',\
-	printf,'printf'
+	printf,'printf',\
+	getenv,'getenv'
