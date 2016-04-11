@@ -6,4 +6,14 @@ import msvcrt,\
 	atoi,'atoi',\
 	memcpy,'memcpy',\
 	printf,'printf',\
-	getenv,'getenv'
+	getenv,'getenv',\
+	fopen,'fopen',\
+	_wfopen','_wfopen',\
+	fprintf,'fprintf',\
+	fwprintf,'fwprintf',\
+	fclose,'fclose',\
+	time,'time' ,\
+	difftime,'difftime',\
+	localtime,'localtime',\
+	strftime,'strftime',\
+	gmtime,'gmtime'
