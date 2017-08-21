@@ -113,7 +113,8 @@ import shell32,\
        StrRStrW,'StrRStrW',\
        StrRStrIA,'StrRStrIA',\
        StrRStrIW,'StrRStrIW',\
-       WOWShellExecute,'WOWShellExecute'
+       WOWShellExecute,'WOWShellExecute',\
+       CommandLineToArgvW,'CommandLineToArgvW'
 
 api CheckEscapes,\
     DoEnvironmentSubst,\

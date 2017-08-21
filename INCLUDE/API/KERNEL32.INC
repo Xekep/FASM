@@ -718,7 +718,8 @@ import kernel32,\
        lstrlenA,'lstrlenA',\
        lstrlenW,'lstrlenW',\
        RtlCopyMemory,'RtlCopyMemory',\
-       GlobalMemoryStatusEx,'GlobalMemoryStatusEx'
+       GlobalMemoryStatusEx,'GlobalMemoryStatusEx',\
+       IsWow64Process,'IsWow64Process'
 
 api AddAtom,\
     AddConsoleAlias,\
